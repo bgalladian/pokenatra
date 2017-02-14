@@ -1,0 +1,8 @@
+<h2>All Pokemon</h2>
+<% @pokemons.each do |pokemon|%>
+  <div class ="pokemon">
+    <p><a href='/pokemons/<%= pokemon.id %>'><%= pokemon.name %></a></p>
+  </div>
+<% end %>
+
+<p><a href='/pokemons/new'>CREATE NEW POKEMON</a></p>

@@ -1,0 +1,6 @@
+<h2><%= @pokemon.name %></h2>
+<p>Pokemon Type: <%= @pokemon.poke_type %></p>
+<p>Combat Points: <%= @pokemon.cp %></p>
+<p><img src = '<%= @pokemon.img_url %>'></p>
+
+<h3><a href='/pokemons/<%= @pokemon.id %>/update'>Update this Pokemon</a></h3>
